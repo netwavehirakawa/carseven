@@ -820,6 +820,182 @@ a.alpha:hover, a.alpha:hover img {
 }
 
 
+/* セミナー告知 */
+#corporate_page .article_blk {
+	padding: 15px 30px;
+	background: #fff;
+	border-top: none;
+	margin-bottom: 30px;
+}
+#corporate_page .article_seminar_table_wrap {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+}
+#corporate_page .article_seminar_table_wrap th {
+	padding: 7px 0;
+	text-align: center;
+	background: #758192;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+#corporate_page .article_seminar_table_wrap th:first-child {
+	width: 95px;
+}
+#corporate_page .article_seminar_table_wrap th:nth-child(2) {
+	width: 160px;
+}
+#corporate_page .article_seminar_table_wrap th:nth-child(3) {
+	width: 380px;
+}
+#corporate_page .article_seminar_table_wrap th:nth-child(4) {
+	width: 74px;
+	border-right: none;
+}
+#corporate_page .article_seminar_table_wrap td {
+	font-size: 14px;
+	color: #333;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 9px;
+	box-sizing: border-box;
+}
+#corporate_page .article_seminar_table_wrap td:last-child {
+	text-align: center;
+	letter-spacing: -0.8px;
+	color: #e60012;
+	border-right: none;
+}
+#corporate_page .article_seminar_table_wrap tr:last-child td {
+	border-bottom: none;
+}
+#corporate_page .article_seminar_table_wrap .article_seminar_table-maplink {
+	float: right;
+	margin-top: 10px;
+	padding: 0 10px;
+	display: inline-block;
+	background: #333;
+	color: #fff;
+}
+#corporate_page .article_seminar_table_wrap .article_seminar_table-link {
+	text-decoration: underline;
+	display: block;
+}
+
+
+/* 各ページのリンクボタン */
+#corporate_page .article_btn_wrap {
+	text-align: center;
+}
+#corporate_page .article_btn {
+	display: inline-block;
+	padding: 10px 10px 10px 20px;
+	margin-top: 30px;
+	background: #333;
+	font-size: 15px;
+	color: #fff;
+}
+#corporate_page .article_btn:after {
+	content: "";
+	display: block;
+	float: right;
+	width: 0;
+	height: 0;
+	margin-top: 7px;
+	border-top: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 8px solid #e60012;
+	margin-left: 10px;
+}
+#corporate_page .article_btn:hover {
+	opacity: 0.7;
+}
+
+
+/* セミナー会議室情報 */
+#corporate_page .article_seminar_info_wrap dl {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+#corporate_page .article_seminar_info_wrap li:first-child dl {
+	margin-top: 20px;
+}
+
+#corporate_page .article_seminar_info_wrap .hide-text dl {
+	margin-top: 0 !important;
+}
+#corporate_page .article_seminar_info_wrap dt,
+#corporate_page .article_seminar_info_wrap dd {
+	font-size: 14px;
+	color: #333;
+}
+#corporate_page .article_seminar_info_wrap dt {
+	margin-right: 20px;
+}
+#corporate_page .article_seminar_info_wrap dd a {
+	text-decoration: underline;
+}
+#corporate_page .article_seminar_info_wrap span {
+	display: inline-block;
+	background: #a21918;
+	border-radius: 5px;
+	margin-left: 5px;
+    color: #fff;
+    height: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 1px 5px;
+}
+#corporate_page .article_btn_wrap .article_btn-seminar_info {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 6px 15px 6px 10px;
+	border: 2px solid #cbcbcb;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;
+}
+#corporate_page .article_btn_wrap .more_btn:before {
+	content:'\f067';
+	font-family: "Font Awesome 5 Free";
+	font-size: 12px;
+	margin-right: 10px;
+	color: #f00;
+}
+#corporate_page .article_btn_wrap .close_btn:before {
+	content:'\f068';
+	font-family: "Font Awesome 5 Free";
+	font-size: 12px;
+	margin-right: 10px;
+	color: #f00;
+}
+
+/* 個人情報取り扱い */
+#corporate_page .privacyBox {
+  height: 200px;
+  margin-bottom: 30px;
+	border: 2px solid #ccc;
+}
+#corporate_page .privacyBox iframe {
+  height: 200px;
+}
+
+
+
+
+
+
+
 
 
 /* **************************
@@ -915,10 +1091,7 @@ a.alpha:hover, a.alpha:hover img {
 #franchise_page .article_lnk_list {
 	width: 540px;
 	margin: 0 auto;
-	display: flex;
-	display: -ms-flexbox;
-	display: -webkit-box;
-	display: -webkit-flex;
+	text-align: center;
 }
 #franchise_page .article_lnk_item a {
 	display: inline-block;
@@ -971,135 +1144,6 @@ a.alpha:hover, a.alpha:hover img {
 #franchise_page .article_btn:hover {
 	opacity: 0.7;
 }
-
-
-/* セミナー告知 */
-#franchise_page .article_seminar_table_wrap {
-	border: 1px solid #ccc;
-	margin-top: 30px;
-}
-
-#franchise_page .article_seminar_table_wrap th {
-	padding: 7px 0;
-	text-align: center;
-	background: #758192;
-	border-right: 1px solid #ccc;
-	box-sizing: border-box;
-	vertical-align: middle;
-	color: #fff;
-	font-size: 14px;
-	font-weight: normal;
-}
-#franchise_page .article_seminar_table_wrap th:first-child {
-	width: 95px;
-}
-#franchise_page .article_seminar_table_wrap th:nth-child(2) {
-	width: 160px;
-}
-#franchise_page .article_seminar_table_wrap th:nth-child(3) {
-	width: 380px;
-}
-#franchise_page .article_seminar_table_wrap th:nth-child(4) {
-	width: 74px;
-	border-right: none;
-}
-#franchise_page .article_seminar_table_wrap td {
-	font-size: 14px;
-	color: #333;
-	vertical-align: middle;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	padding: 9px;
-	box-sizing: border-box;
-}
-#franchise_page .article_seminar_table_wrap td:last-child {
-	text-align: center;
-	letter-spacing: -0.8px;
-	color: #e60012;
-	border-right: none;
-}
-#franchise_page .article_seminar_table_wrap tr:last-child td {
-	border-bottom: none;
-}
-#franchise_page .article_seminar_table_wrap .article_seminar_table-maplink {
-	float: right;
-	margin-top: 10px;
-	padding: 0 10px;
-	display: inline-block;
-	background: #333;
-	color: #fff;
-}
-#franchise_page .article_seminar_table_wrap .article_seminar_table-link {
-	text-decoration: underline;
-	display: block;
-}
-
-
-
-
-/* セミナー会議室情報 */
-#franchise_page .article_seminar_info_wrap dl {
-	display: flex;
-	display: -ms-flexbox;
-	display: -webkit-box;
-	display: -webkit-flex;
-	border-bottom: 1px solid #ccc;
-	padding: 10px 0;
-}
-#franchise_page .article_seminar_info_wrap li:first-child dl {
-	margin-top: 20px;
-}
-
-#franchise_page .article_seminar_info_wrap .hide-text dl {
-	margin-top: 0 !important;
-}
-#franchise_page .article_seminar_info_wrap dt,
-#franchise_page .article_seminar_info_wrap dd {
-	font-size: 14px;
-	color: #333;
-}
-#franchise_page .article_seminar_info_wrap dt {
-	margin-right: 20px;
-}
-#franchise_page .article_seminar_info_wrap dd a {
-	text-decoration: underline;
-}
-#franchise_page .article_seminar_info_wrap span {
-	display: inline-block;
-	background: #a21918;
-	border-radius: 5px;
-	margin-left: 5px;
-    color: #fff;
-    height: 20px;
-    box-sizing: border-box;
-    font-size: 12px;
-    padding: 1px 5px;
-}
-#franchise_page .article_btn_wrap .article_btn-seminar_info {
-	display: inline-block;
-	margin-top: 30px;
-	padding: 6px 15px 6px 10px;
-	border: 2px solid #cbcbcb;
-	box-sizing: border-box;
-	font-size: 15px;
-	color: #333;
-	font-weight: bold;
-}
-#franchise_page .article_btn_wrap .more_btn:before {
-	content:'\f067';
-	font-family: "Font Awesome 5 Free";
-	font-size: 12px;
-	margin-right: 10px;
-	color: #f00;
-}
-#franchise_page .article_btn_wrap .close_btn:before {
-	content:'\f068';
-	font-family: "Font Awesome 5 Free";
-	font-size: 12px;
-	margin-right: 10px;
-	color: #f00;
-}
-
 
 
 
@@ -1416,14 +1460,6 @@ a.alpha:hover, a.alpha:hover img {
 	display: block;
 	font-size: 17px;
   font-weight: bold;
-}
-#stores_page .privacyBox {
-  height: 200px;
-  margin-bottom: 30px;
-	border: 2px solid #ccc;
-}
-#stores_page .privacyBox iframe {
-  height: 200px;
 }
 #stores_page .contactBox {
 	padding: 20px;
