@@ -561,7 +561,10 @@ a.alpha:hover, a.alpha:hover img {
 	width: 770px;
 }
 
-
+.article_recruit_cst_wrap {
+	width: 770px;
+	border-top: 3px solid #e60012;
+}
 
 /* サイドメニュー(下層) */
 .side_menu {
@@ -1488,8 +1491,21 @@ a.alpha:hover, a.alpha:hover img {
 ************************** */
 
 #recruit_page .article_cst_wrap {
+
+}
+
+/* 新卒採用バナー */
+#recruit_page #recruit_bnr {
+	height: 150px;
+	margin-bottom: 30px;
+}
+#recruit_page #recruit_bnr a:hover {
+	opacity: 0.7;
+}
+#recruit_page .recruit_cst {
 	border-top: 3px solid #e60012;
 }
+
 #recruit_page .article_cst {
 	padding: 50px 30px 0;
 	background: #fff;
@@ -1692,6 +1708,16 @@ a.alpha:hover, a.alpha:hover img {
     padding: 50px 30px 0;
     background: #fff;
 }
+/* 準備中 */
+#publicity_page .preparation_txt {
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+
 #publicity_page .article_cst:first-child {
   padding-top: 30px;
 }
