@@ -517,15 +517,26 @@ a.alpha:hover, a.alpha:hover img {
 
 
 /* insmart system */
-.cont_insmart_wrap {
-	position: relative;
+.cont_bnr_wrap {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
-.cont_insmart_wrap a:hover {
+.cont_bnr_wrap li {
+	position: relative;
+}
+.cont_bnr_wrap .cont_bnr_recruit {
+	margin-top: 20px;
+}
+.cont_bnr_wrap a {
+	display: block;
+}
+.cont_bnr_wrap a:hover {
 	opacity: 0.6;
 }
-.cont_insmart_wrap span {
+.cont_bnr_wrap li img {
+	vertical-align: bottom;
+}
+.cont_bnr_wrap span {
 	position: absolute;
 	bottom: 30px;
 	right: 30px;
@@ -537,7 +548,7 @@ a.alpha:hover, a.alpha:hover img {
 	font-size: 14px;
 	background: #333;
 }
-.cont_insmart_wrap span:after {
+.cont_bnr_wrap span:after {
 	position: absolute;
 	top: 0;
 	bottom: 0;
