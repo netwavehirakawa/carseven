@@ -96,8 +96,19 @@ a.alpha:hover, a.alpha:hover img {
 .hdr_nav li {
 	display: block;
 	border-left: 2px solid #ccc;
+	width: 20%;
+}
+.hdr_nav li:nth-child(2) {
+	width: 22%;
+}
+.hdr_nav li:nth-child(3) {
+	width: 15%;
+}
+.hdr_nav li:nth-child(4) {
+	width: 18%;
 }
 .hdr_nav li:last-child {
+	width: 24%;
 	border-right: 2px solid #ccc;
 }
 .hdr_nav li:hover {
@@ -113,7 +124,7 @@ a.alpha:hover, a.alpha:hover img {
 }
 
 .hdr_nav .menu_text {
-	float: right;
+	float: left;
 }
 
 
@@ -121,6 +132,7 @@ a.alpha:hover, a.alpha:hover img {
 	content: "";
 	display: inline-block;
 	margin: 5px 10px 0 20px;
+	float: left;
 }
 .hdr_nav .hdr_nav_corporate .menu_icon:before {
 	background: url(../images/nav_icon01.png) no-repeat;
@@ -161,7 +173,7 @@ a.alpha:hover, a.alpha:hover img {
 .hdr_nav .menu_icon {
 	color: #333;
 	font-size: 16px;
-	padding: 5px 15px 0 0;
+	padding: 5px 18px 0 0;
 }
 .hdr_nav span {
 	line-height: 1.3;
