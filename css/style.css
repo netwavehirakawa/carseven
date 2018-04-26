@@ -93,21 +93,21 @@ a.alpha:hover, a.alpha:hover img {
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 }
-.hdr_nav a {
+.hdr_nav li {
   display: block;
 	border-left: 2px solid #ccc;
 }
-.hdr_nav a:last-child {
+.hdr_nav li:last-child {
 	border-right: 2px solid #ccc;
 }
 .hdr_nav a:hover {
 	opacity: 0.6;
 }
-.hdr_nav li {
+.hdr_nav a {
 }
 
-.hdr_nav li:last-child {
-	border-right: 2px solid #ccc;
+.hdr_nav a:last-child {
+	/*border-right: 2px solid #ccc;*/
 }
 .hdr_nav li:before {
 	content: "";
