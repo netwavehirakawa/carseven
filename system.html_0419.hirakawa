@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>フランチャイズ | カーセブン加盟店募集</title>
+<title>システム | カーセブン加盟店募集</title>
 <meta name="description" content="">
 
 <link rel="stylesheet" href="css/reset.css">
@@ -20,7 +20,7 @@
   <![endif]-->
 </head>
 
-<body id="franchise_page">
+<body id="system_page">
 
 <div class="container">
 
@@ -103,10 +103,10 @@
 			<nav class="breadcrumb">
 				<ul>
 					<li><a href="index.html">HOME</a></li>
-					<li>フランチャイズ</li>
+					<li>システム</li>
 				</ul>
 			</nav>
-			<h2>フランチャイズ<span>Franchise Chain</span></h2>
+			<h2>システム<span>System</span></h2>
 		</div>
 	</div>
 	<!-- /main_visual -->
@@ -115,10 +115,7 @@
 		<div class="cont_inr secondary">
 			<div class="side_menu">
 				<ul>
-					<li><a class="side_menu-lnk" href="franchise.html">加盟店募集</a></li>
-					<li><a class="side_page-lnk" href="#company_ttl04">出店までの流れ</a></li>
-					<li><a class="side_menu-lnk" href="newstore.html">加盟事例</a></li>
-					<li><a class="side_menu-lnk" href="support.html">サポートメニュー</a></li>
+					<li><a class="side_menu-lnk" href="insmart.html">インスマートシステム</a></li>
 				</ul>
 			</div>
 			<div id="company_ttl01" class="article_cst_wrap">
@@ -175,8 +172,7 @@
 						<div class="support_block_txt">
 							<dl>
 								<dt>5. 在庫共有</dt>
-								<dd>在庫情報を管理するためのシステムです。インスマートシステムから成約情報を送信することで、在庫登録の負担を大幅に軽減し、登録した情報を各媒体にも連携するため、情報の多重入力が不要になります。<br>
-                カーセブンが提供する業販サイト「業販マーケット」への出品、自社グループ内での在庫共有も可能となります。</dd>
+								<dd>メジャーガレージを活用した「共有在庫システム」は常時約３万台の中から販売することが可能です。ユーザーの求めている車両が自社の展示場で見つからない場合など、メジャーガレージを利用すれ ば販売ロスの発生を抑えることが出来ます。</dd>
 							</dl>
 						</div>
 					</div>

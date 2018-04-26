@@ -115,7 +115,8 @@
 		<div class="cont_inr secondary">
 			<div class="side_menu">
 				<ul>
-					<li><a class="side_menu-lnk" href="system.html">インスマートシステム</a></li>
+					<li><a class="side_menu-lnk" href="system.html">サポートメニュー</a></li>
+					<li><a class="side_menu-lnk" href="insmart.html">インスマートシステム</a></li>
 				</ul>
 			</div>
 			<div id="company_ttl01" class="article_cst_wrap">

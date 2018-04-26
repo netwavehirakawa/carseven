@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>システム | カーセブン加盟店募集</title>
+<title>CSR･パブリシティー | カーセブン加盟店募集</title>
 <meta name="description" content="">
 
 <link rel="stylesheet" href="css/reset.css">
@@ -13,14 +13,14 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/common.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
 
 <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
-<body id="system_page">
+<body id="publicity_page">
 
 <div class="container">
 
@@ -103,61 +103,94 @@
 			<nav class="breadcrumb">
 				<ul>
 					<li><a href="index.html">HOME</a></li>
-					<li>システム</li>
+					<li>CSR･パブリシティー</li>
 				</ul>
 			</nav>
-			<h2>システム<span>System</span></h2>
+			<h2>CSR･パブリシティー<span>CSR･Publicity</span></h2>
 		</div>
 	</div>
-	<!-- /main_visual -->
 
 	<div id="contents">
 		<div class="cont_inr secondary">
 			<div class="side_menu">
 				<ul>
-					<li><a class="side_menu-lnk" href="support.html">サポートメニュー</a></li>
-					<li><a class="side_menu-lnk" href="insmart.html">インスマートシステム</a></li>
+					<li><a class="side_menu-lnk" href="social.html">CSR･パブリシティー</a></li>
 				</ul>
 			</div>
 			<div id="company_ttl01" class="article_cst_wrap">
-				<div class="article_cst_insmart_top">
-					<div class="article_cst_insmart block01">
-						<img src="images/system/insmart/img01.png" alt="車の査定がカンタン！！">
-					</div>
-					<div class="article_cst_insmart block02">
-						<img src="images/system/insmart/img02.png" alt="業務効率改善">
-					</div>
-					<div class="article_cst_insmart step01">
-						<img src="images/system/insmart/img03.png" alt="基本機能1 QRコード読み込み">
-					</div>
-					<div class="article_cst_insmart step02">
-						<img src="images/system/insmart/img04.png" alt="基本機能2 車両情報のデジタル化">
-					</div>
-					<div class="article_cst_insmart step03">
-						<img src="images/system/insmart/img05.png" alt="基本機能3 デジタル化データの活用術">
-					</div>
-					<div class="article_cst_insmart insmart_contact_btn">
-						<a href="#"><img src="images/system/insmart/btn01.png" alt="今すぐ問い合わせる"></a>
-					</div>
-				</div>
-				<div class="article_cst_insmart_bottom">
-					<div class="article_cst_insmart block04">
-						<img src="images/system/insmart/tit_price01.png" alt="主な導入に際する料金と準備のご紹介">
-					</div>
-					<div class="article_cst_insmart block05">
-						<img src="images/system/insmart/img_price01.png" alt="必要な費用【準備段階】">
-					</div>
-					<div class="article_cst_insmart block06">
-						<img src="images/system/insmart/img_price02.png" alt="インスマートシステム導入【イニシャル】">
-					</div>
-					<div class="article_cst_insmart block07">
-						<img src="images/system/insmart/img_price03.png" alt="インスマートシステム導入【月額費用】">
-					</div>
-					<div class="article_cst_insmart insmart_contact_btn">
-						<a href="#"><img src="images/system/insmart/btn01.png" alt="今すぐ問い合わせる"></a>
-					</div>
-				</div>
+				<div class="article_cst">
+					<h3>CSR･パブリシティー</h3>
+         準備中
+        </div>
+
+<!-- 
+        <div class="article_cst">
+          <h4>自動車流通に携わる企業として社会的責任を果たすため</h4>
+          <div class="article_block_case">
+            <div class="article_img">
+              <a href="http://www.kotsuiji.com/" target="_blank" class="alpha"><img src="images/publicity/block_img01.png" alt="（財）交通遺児育英会"></a>
+            </div>
+            <div class="article_txt">
+              <div class="article_txt_ttl">
+                <h5>（財）交通遺児育英会</h5>
+                <a href="http://www.kotsuiji.com/" target="_blank" class="cont_dtl_lnk">詳細へ</a>
+              </div>
+              <div class="article_txt_capt">
+                弊社社員の名刺1枚につき1円を「（財）交通遺児育英会」へ寄付させていただいております。<br>
+                また名刺には再生紙を利用しております。
+              </div>
+            </div>
+          </div>
+          <div class="article_block_case">
+            <div class="article_img">
+              <a href="http://www.team-6.jp/" target="_blank" class="alpha"><img src="images/publicity/block_img02.png" alt="チーム・マイナス6％"></a>
+            </div>
+            <div class="article_txt">
+              <div class="article_txt_ttl">
+                <h5>チーム・マイナス6％</h5>
+                <a href="http://www.team-6.jp/" target="_blank" class="cont_dtl_lnk">詳細へ</a>
+              </div>
+              <div class="article_txt_capt">
+                チーム・マイナス6％に加盟し、地球温暖化防止のための活動を積極的に行っています。
+              </div>
+            </div>
+          </div>
+          <div class="article_block_case">
+            <div class="article_txt">
+              <div class="article_txt_ttl">
+                <h5>無保険車防止対策事業ビデオ</h5>
+                <a href="https://www.carseven.co.jp/corp/social_movie.html" target="_blank" class="cont_dtl_lnk">詳細へ</a>
+              </div>
+              <div class="article_txt_capt">
+                国土交通省の2009年度無保険車防止対策事業の一環として、弊社オリジナルの自賠責保険に関するビデオを制作しております。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article_cst">
+          <h4>個人情報を取り扱う企業としての社会的責任を果たすため</h4>
+          <div class="article_block_case">
+            <div class="article_img">
+              <img src="images/publicity/block_img03.png" alt="プライバシーマーク">
+            </div>
+            <div class="article_txt">
+              <div class="article_txt_ttl">
+                <h5>プライバシーマーク</h5>
+              </div>
+              <div class="article_txt_capt">
+                個人情報の取り扱いが適正に行われていることを認定する「プライバシーマーク」を取得しています。
+              </div>
+            </div>
+          </div>
+        </div>
+          -->
+
+
+
+
 			</div>
+			<!-- /cont_block -->
 		</div>
 		<!-- /cont_inr -->
 	</div>

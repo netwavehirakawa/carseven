@@ -13,7 +13,7 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/common.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -109,72 +109,130 @@
 			<h2>フランチャイズ<span>Franchise Chain</span></h2>
 		</div>
 	</div>
+	<!-- /main_visual -->
 
 	<div id="contents">
 		<div class="cont_inr secondary">
 			<div class="side_menu">
 				<ul>
 					<li><a class="side_menu-lnk" href="franchise.html">加盟店募集</a></li>
-					<li><a class="side_page-lnk" href="franchise.html#company_ttl04">出店までの流れ</a></li>
+					<li><a class="side_page-lnk" href="#company_ttl04">出店までの流れ</a></li>
 					<li><a class="side_menu-lnk" href="newstore.html">加盟事例</a></li>
-					<li><a class="side_menu-lnk" href="support.html">サポートメニュー</a></li>
+					<li><a class="side_menu-lnk" href="system.html">サポートメニュー</a></li>
 				</ul>
 			</div>
 			<div id="company_ttl01" class="article_cst_wrap">
 				<div class="article_cst">
-					<h3>加盟事例</h3>
-					<div class="article_block_case">
+					<h3>加盟店募集</h3>
+					<div class="article_block">
 						<div class="article_img">
-							<img src="images/franchise/case_img01.jpg" alt="新規ディーラー様の場合">
+							<img src="images/franchise/case_img01.jpg" alt="FC募集">
 						</div>
 						<div class="article_txt">
 							<dl>
-								<dt><span class="article_txt_ttl">新規ディーラー様の場合</span>中古車のマルチブランド化により、ユーザーの囲い込みを強化</dt>
-								<dd>カーセブンが持つ車の買取・販売に関する仕組みやノウハウをご活用いただくことにより、各社で取り組まれている中古車事業の強化につながります。<br>
-買取事業により仕入れルートを確保し、マルチブランドであるカーセブンでの店舗展開により他社ブランドユーザーの囲い込みを推進していきます。また、中古車売買の専門教育研修により自社人材の活用が可能となります。結果として新車販売とサービスだけに依存しない経営のリスクヘッジを行なうこととなり、より強固な経営基盤の構築につながります。</dd>
-							</dl>
-						</div>
-					</div>
-					<div class="article_block_case">
-						<div class="article_img">
-							<img src="images/franchise/case_img02.jpg" alt="中古車専業店様の場合">
-						</div>
-						<div class="article_txt">
-							<dl>
-								<dt><span class="article_txt_ttl">中古車専業店様の場合</span>全国展開のブランドメリットを活用し、各社様のポテンシャルを最大化</dt>
-								<dd>既に中古車販売店を経営されている会社様にとっては、カーセブンにご加盟いただくことにより、オークション仕入れに依存しない仕入れルートの確保が可能となります。また、カーセブンはイメージキャラクターを起用した統一ブランドで全国に展開しておりますので、一般消費者への安心感を訴求することが出来ます。また顧客管理システムなど自社では開発負担の大きいシステムや教育研修メニューの活用により、各社様のポテンシャルを今まで以上に引き出すことが可能です。</dd>
-							</dl>
-						</div>
-					</div>
-					<div class="article_block_case">
-						<div class="article_img">
-							<img src="images/franchise/case_img03.jpg" alt="SS業者様の場合">
-						</div>
-						<div class="article_txt">
-							<dl>
-								<dt><span class="article_txt_ttl">SS業者様の場合</span>自動車の売買により本業の業績向上も</dt>
-								<dd>既存事業全ての起点と成りうる中古車売買への取り組みが最大のメリットとなります。新規顧客の獲得や囲い込みが可能となり、来店頻度を高めることにより燃料販売及び油外収益が向上する相乗効果も見込めます。また、独自展開では困難な人材育成やシステム構築などもカーセブンであれば早期に実現することが可能です。</dd>
-							</dl>
-						</div>
-					</div>
-					<div class="article_block_case">
-						<div class="article_img">
-							<img src="images/franchise/case_img04.jpg" alt="その他の事業をされている場合">
-						</div>
-						<div class="article_txt">
-							<dl>
-								<dt><span class="article_txt_ttl">その他の事業をされている場合</span>クルマの買取・販売の両方を提供します。</dt>
-								<dd>その他の事業体としては、食品関連企業様、リサイクル業者様、独立起業家の方などの実績があります。それぞれにメリットは異なりますが、共通する部分としてはクルマの買取・販売双方のノウハウやシステムを保有しており、投資効率が高い事業展開が出来るということがメリットとして挙げられます。自動車流通を事業としたいとお考えの方々に対し、カーセブンのメニュー提供が成功への近道となるよう取り組んでおります。</dd>
+								<dt><span class="article_txt_ttl">FC募集</span></dt>
+								<dd>
+									<p>激変する中古車業界、フランチャイズ募集中！</p>
+									<div class="article_btn_wrap">
+										<a class="article_btn" href="#">資料請求はこちら</a>
+									</div>
+								</dd>
 							</dl>
 						</div>
 					</div>
 				</div>
-
-
-
-
+				<div class="article_cst">
+					<h4 id="company_ttl04">出店までの流れ</h4>
+					<div class="article_seminar_flow_wrap">
+						<div class="article_seminar_flow_block">
+							<div class="article_seminar_flow_step_ttl_wrap">
+								<div class="article_seminar_flow_step_ttl">
+									<div class="article_seminar_flow_step">
+										<span>STEP</span>
+										<span>1</span>
+									</div>
+									<p>事業のご説明</p>
+								</div>
+							</div>
+							<div class="article_seminar_flow_step_txt_wrap">
+								<ul>
+									<li>・地域状況確認</li>
+									<li>・FCシステムなどのご説明</li>
+								</ul>
+							</div>
+						</div>
+						<div class="article_seminar_flow_block">
+							<div class="article_seminar_flow_step_ttl_wrap">
+								<div class="article_seminar_flow_step_ttl">
+									<div class="article_seminar_flow_step">
+										<span>STEP</span>
+										<span>2</span>
+									</div>
+									<p>具体的なご提案</p>
+								</div>
+							</div>
+							<div class="article_seminar_flow_step_txt_wrap">
+								<ul>
+									<li>・今後の展開計画</li>
+									<li>・立地診断</li>
+									<li>・物件提案</li>
+								</ul>
+							</div>
+						</div><div class="article_seminar_flow_block">
+							<div class="article_seminar_flow_step_ttl_wrap">
+								<div class="article_seminar_flow_step_ttl">
+									<div class="article_seminar_flow_step">
+										<span>STEP</span>
+										<span>3</span>
+									</div>
+									<p>ご契約</p>
+								</div>
+							</div>
+							<div class="article_seminar_flow_step_txt_wrap">
+								<ul>
+									<li>・契約書締結</li>
+									<li>・加盟金入金</li>
+								</ul>
+							</div>
+						</div><div class="article_seminar_flow_block">
+							<div class="article_seminar_flow_step_ttl_wrap">
+								<div class="article_seminar_flow_step_ttl">
+									<div class="article_seminar_flow_step">
+										<span>STEP</span>
+										<span>4</span>
+									</div>
+									<p>ご出店</p>
+								</div>
+							</div>
+							<div class="article_seminar_flow_step_txt_wrap">
+								<ul>
+									<li>・試行打ち合わせ</li>
+									<li>・店舗内外準備</li>
+									<li>・研修</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="article_cst">
+					<div class="article_block">
+						<div class="article_img">
+							<img src="images/franchise/case_img01.jpg" alt="FC募集">
+						</div>
+						<div class="article_txt">
+							<dl>
+								<dt><span class="article_txt_ttl">FC募集</span></dt>
+								<dd>
+									<p>激変する中古車業界、フランチャイズ募集中！</p>
+									<div class="article_btn_wrap">
+										<a class="article_btn" href="#">資料請求はこちら</a>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- /cont_block -->
 		</div>
 		<!-- /cont_inr -->
 	</div>
