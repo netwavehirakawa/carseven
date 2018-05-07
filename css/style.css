@@ -116,7 +116,7 @@ a.alpha:hover, a.alpha:hover img {
 }
 .hdr_nav a {
 	display: block;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 .hdr_nav a:last-child {
