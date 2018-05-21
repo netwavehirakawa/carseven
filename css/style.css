@@ -490,7 +490,7 @@ a.alpha:hover, a.alpha:hover img {
 	display: -webkit-flex;
 }
 .cont_news_date {
-	width: 75px;
+	width: 130px;
 	font-size: 14px;
 	font-weight: bold;
 	color: #333;
@@ -507,6 +507,9 @@ a.alpha:hover, a.alpha:hover img {
 	text-decoration: none;
 	font-size: 14px;
 	color: #333;
+    font-feature-settings: "palt";
+    list-style-type: disc !important;
+    font-family: "Yu Gothic" , sans-serif;
 }
 
 

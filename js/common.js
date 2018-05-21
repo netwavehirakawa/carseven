@@ -40,7 +40,7 @@ $(function(){
 
 //戻るボタン
 $(function() {
-    var topBtn = $('.backtotop');    
+    var topBtn = $('.backtotop');
     //最初はボタンを隠す
     topBtn.hide();
     //スクロールが300に達したらボタンを表示させる
